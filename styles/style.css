@@ -18,3 +18,14 @@ html{
 
 
 
+.header-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#logo{
+    width: 35%;
+}
+#form{
+    background-color: gray;
+}
