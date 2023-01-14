@@ -1,5 +1,5 @@
 /* Regles générales */
-html{
+html {
     width: 768px;
 }
 
@@ -18,19 +18,28 @@ html{
 
 
 
-.header-container{
+.header-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-#logo{
+
+#logo {
     width: 35%;
 }
-#form{
+
+#form {
     display: flex;
-    background-color: #F2F2F2;
+    background-color: #f2f2f2e9;
     width: 100%;
-    flex-direction: row;
+    align-items: center;
     justify-content: center;
     height: 30px;
+    border-top: 2px solid #dddadab4;
+}
+
+input.search {
+    border: none;
+    font-weight: bolder;
+    background-color: #f2f2f2e9;
 }
