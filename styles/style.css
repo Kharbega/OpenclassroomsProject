@@ -2,7 +2,8 @@
 html {
     width: 768px;
 }
-
+h1{
+}
 
 
 
@@ -35,7 +36,7 @@ html {
     width: 100%;
     align-items: center;
     justify-content: center;
-    height: 30px;
+    height: 45px;
     border-top: 2px solid #dddadab4;
     padding-left: 50px;
 }
@@ -45,4 +46,10 @@ input.search {
     font-weight: bolder;
     background-color: #f2f2f2e9;
     padding-left: 10px;
+}
+section.number-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
