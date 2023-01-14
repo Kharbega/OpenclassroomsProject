@@ -25,7 +25,8 @@ html {
 }
 
 #logo {
-    width: 35%;
+    width: 19%;
+    padding-bottom: 20px ;
 }
 
 #form {
@@ -36,10 +37,12 @@ html {
     justify-content: center;
     height: 30px;
     border-top: 2px solid #dddadab4;
+    padding-left: 50px;
 }
 
 input.search {
     border: none;
     font-weight: bolder;
     background-color: #f2f2f2e9;
+    padding-left: 10px;
 }
