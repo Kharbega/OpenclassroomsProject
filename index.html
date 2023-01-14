@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Shrikhand&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/normalize-0.7.7.tar.gz">
     <link rel="stylesheet" media="screen and (max-width: 768px)" href="petite_resolution.css" />
 
 
@@ -16,13 +17,13 @@
 </head>
 <body>
     <header>
-        <!-- logo ,barre de recherche -->
-        <img src="logo/ohmyfood.png" alt="logo" id="logo">
-        <form method="post" action="#">
-            <i class="fa-solid fa-location-dot" id="location-dot"></i>
-            <input class="search" type="search" name="search" placeholder="Paris,Belleville">
-        </form>
-            
+        <div class="header-container">
+           <img src="logo/ohmyfood.png" alt="logo" id="logo">
+            <form method="post" action="#">
+                <i class="fa-solid fa-location-dot" id="location-dot"></i>
+                <input class="search" type="search" name="search" placeholder="Paris,Belleville">
+            </form>
+        </div>    
     </header>
     <section class="number-one">
         <h1>Réservez le menu qui vous convient</h1>
