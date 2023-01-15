@@ -74,3 +74,8 @@ section.number-one{
     margin: 0;
     
 }
+#input-explore{
+    background-color: #9356DC;
+    border-radius: 15px 15px 15px 15px;
+    border: none;
+}
