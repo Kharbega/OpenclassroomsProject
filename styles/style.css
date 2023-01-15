@@ -3,7 +3,10 @@ html {
     width: 768px;
 }
 h1,h2,h3{
-    font-family: 'Shrikhand' 
+    font-family: 'Shrikhand', cursive ;
+}
+p{
+    font-family: 'roboto',sans-serif;
 }
 
 
