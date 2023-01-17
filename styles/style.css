@@ -93,3 +93,31 @@ ol {
     height: 63px;
     align-items: center;
 }
+span.icon-fcn{
+    border: 2px solid;
+    border-radius: 100%;
+    display: flex;
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    justify-content: cent
+}
+span.icon-fcn > i {
+    display: flex;
+    justify-content: center;
+}
+span.input-fcn{
+    border: 2px solid;
+    border-radius: 30px;
+    height: 56px;
+    width: 196px;
+    display: flex;
+    padding-right: 25px;
+    align-items: center;
+}
+ span.input-fcn > i{
+    padding-left: 30px;
+ }
+ input{
+    border: none;
+ }
