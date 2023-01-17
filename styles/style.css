@@ -100,11 +100,13 @@ span.icon-fcn{
     position: absolute;
     height: 25px;
     width: 25px;
-    justify-content: cent
+    justify-content: center;
+    align-items: center;
 }
 span.icon-fcn > i {
     display: flex;
     justify-content: center;
+
 }
 span.input-fcn{
     border: 2px solid;
