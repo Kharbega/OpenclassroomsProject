@@ -92,6 +92,7 @@ ol {
     width: 184px;
     height: 63px;
     align-items: center;
+    padding-left: 15px;
 }
 span.icon-fcn{
     border: 2px solid;
@@ -102,6 +103,7 @@ span.icon-fcn{
     width: 25px;
     justify-content: center;
     align-items: center;
+    margin-left: -13px;
 }
 span.icon-fcn > i {
     display: flex;
