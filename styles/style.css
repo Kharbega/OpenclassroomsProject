@@ -92,10 +92,10 @@ ol {
     width: 184px;
     height: 63px;
     align-items: center;
-    padding-left: 15px;
+    padding-left: 28px;
 }
 span.icon-fcn{
-    border: 2px solid;
+    border: 2px solid #9356DC ;
     border-radius: 100%;
     display: flex;
     position: absolute;
@@ -104,10 +104,13 @@ span.icon-fcn{
     justify-content: center;
     align-items: center;
     margin-left: -13px;
+    background-color: #9356DC;
+
 }
 span.icon-fcn > i {
     display: flex;
     justify-content: center;
+    color: ghostwhite;
 
 }
 span.input-fcn{
@@ -118,6 +121,7 @@ span.input-fcn{
     display: flex;
     padding-right: 25px;
     align-items: center;
+    background-color: ghostwhite;
 }
  span.input-fcn > i{
     padding-left: 30px;
