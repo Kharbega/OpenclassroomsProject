@@ -79,3 +79,17 @@ section.number-one{
     border-radius: 15px 15px 15px 15px;
     border: none;
 }
+
+/*  SECTION FONCTIONNEMENT*/
+
+ol {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+.container-span-fcn{
+    display: flex;
+    width: 184px;
+    height: 63px;
+    align-items: center;
+}
