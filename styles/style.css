@@ -75,9 +75,13 @@ section.number-one{
 }
 #input-explore{
     background-color: #9356DC;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 30px;
     border: none;
+    height: 42px;
+    width: 182px;
+    color: white;
 }
+
 
 /*  SECTION FONCTIONNEMENT*/
 
