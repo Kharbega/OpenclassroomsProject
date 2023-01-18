@@ -1,7 +1,6 @@
 /* Regles générales */
-html {
-    width: 768px;
-}
+
+
 h1,h2,h3{
     font-family: 'Shrikhand', cursive ;
 }
@@ -30,7 +29,7 @@ p{
 }
 
 #logo {
-    width: 19%;
+    width: 45%;
     padding-bottom: 20px ;
 }
 
@@ -122,6 +121,9 @@ span.input-fcn{
     padding-right: 25px;
     align-items: center;
     background-color: ghostwhite;
+    box-shadow: 2px 2px 11px -6px;
+    border: none;
+
 }
  span.input-fcn > i{
     padding-left: 30px;
