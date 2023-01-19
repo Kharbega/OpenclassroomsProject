@@ -139,3 +139,12 @@ span.input-fcn{
 color: #9356DC;
  }
  
+ /* SECTION 3 : RESTAURANTS */
+
+ .card{
+    padding-bottom: 50px;
+    height: 32%;
+    width: 75%;
+    padding-top: 50px;
+ }
+ 
