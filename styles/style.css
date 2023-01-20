@@ -150,14 +150,16 @@ color: #9356DC;
     display: grid;
     grid-template-columns: 1fr ;
     grid-template-rows: 1fr ;
+    grid-template-areas: "img"
+                         "cby" ;
  }
  .card-body{
     display: grid;
     grid-area: cby;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-area: "h2 . hrt"
-               "sbt . hrt";
+    grid-template-areas: "h2 h2 h2"
+                        "sbt sbt hrt" ;
  }
 
 
