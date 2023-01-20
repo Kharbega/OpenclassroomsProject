@@ -148,6 +148,28 @@ color: #9356DC;
     padding-top: 50px;
     box-shadow:5px 5px 5px 1px #f2f2f2;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr ;
+ }
+ .card-body{
+    display: grid;
+    grid-area: cby;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    grid-area: "h2 . hrt"
+               "sbt . hrt";
+ }
+
+
+ img{
+    grid-area: img;
+ }
+ p{
+    grid-area: sbt;
+ }
+ i.fa-regular.fa-heart{
+    grid-area: hrt;
+ }
+ h2{
+    grid-area: h2; 
  }
