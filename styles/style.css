@@ -185,6 +185,9 @@ color: #9356DC;
  h2{
     grid-area: h2; 
  }
+ .new{
+    grid-area: nw;
+ }
 
  .fa-solid.fa-heart{
     display:none ;
