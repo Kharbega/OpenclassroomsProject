@@ -7,7 +7,9 @@ h1,h2,h3{
 p{
     font-family: 'roboto',sans-serif;
 }
-
+section{
+    padding-left: 30px;
+}
 
 
 
@@ -47,7 +49,7 @@ p{
 input.search {
     border: none;
     font-weight: bolder;
-    background-color: #f2f2f2e9;
+    background-color: #f2f2f2;
     padding-left: 10px;
 }
 section.number-one{
@@ -74,7 +76,7 @@ section.number-one{
     
 }
 #input-explore{
-    background-color: #9356DC;
+    background: linear-gradient(#FF79DA, #9356DC);
     border-radius: 30px;
     border: none;
     height: 42px;
@@ -143,8 +145,7 @@ color: #9356DC;
 
  .card{
     padding-bottom: 50px;
-    height: 32%;
-    width: 75%;
+    width: 100%;
     padding-top: 50px;
     box-shadow:5px 5px 5px 1px #f2f2f2;
     display: grid;
@@ -157,7 +158,7 @@ color: #9356DC;
     display: grid;
     grid-area: cby;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 20px;
     grid-template-areas: "h2 h2 h2"
                         "sbt sbt hrt" ;
  }
@@ -165,13 +166,39 @@ color: #9356DC;
 
  img{
     grid-area: img;
+    
+ }
+ .card > img {
+    object-fit: cover;
+    object-position: bottom;
+    height: 160px;
  }
  p{
     grid-area: sbt;
  }
  i.fa-regular.fa-heart{
     grid-area: hrt;
+    padding-left: 50px;
  }
  h2{
     grid-area: h2; 
  }
+
+ .fa-solid.fa-heart{
+    display:none ;
+ }
+ .heart:hover
+ .fa-solid.fa-heart{ 
+display: block;
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+
+ }
+ .heart:hover
+ .fa-regular.fa-heart{ 
+display: none;
+
+ }
+ 
+ 
