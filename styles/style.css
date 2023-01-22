@@ -185,10 +185,20 @@ color: #9356DC;
  h2{
     grid-area: h2; 
  }
- .new{
-    grid-area: nw;
+ .new {
+     grid-area: nw;
+     position: relative;
+     top: -223px;
+     right: 84px;
+     border: 1px solid #99E2D0;
+     background-color: #99E2D0;
+     height: 22px;
+     width: 71px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: darkcyan;
  }
-
  .fa-solid.fa-heart{
     display:none ;
  }
