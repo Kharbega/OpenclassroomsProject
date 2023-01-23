@@ -144,9 +144,8 @@ color: #9356DC;
  /* SECTION 3 : RESTAURANTS */
 
  .card{
-    padding-bottom: 50px;
+    padding-bottom: 15px;
     width: 100%;
-    padding-top: 50px;
     display: grid;
     grid-template-columns: 1fr ;
     grid-template-rows: 1fr ;
@@ -163,6 +162,7 @@ color: #9356DC;
      background-color: white;
      box-shadow: 0px 1px 8px 0px #646464;
      border-radius: 0px 0px 30px 30px;
+     padding-left: 16px;
  }
 
 
@@ -174,26 +174,30 @@ color: #9356DC;
     object-fit: cover;
     object-position: center;
     height: 160px;
-    border-radius: 30px 30px 0px 0px;
+    border-radius: 15px 15px 0px 0px;
  }
  p{
     grid-area: sbt;
+    font-family: roboto sans-serif;
+
  }
  i.fa-regular.fa-heart{
     grid-area: hrt;
     padding-left: 50px;
     position: relative;
-    top: 29px;
+    top: 15px;
     right: -40px;
     font-size: xx-large;
  }
  h2{
     grid-area: h2; 
+    font-size: medium;
+    margin-bottom: 0;
  }
  .new {
     grid-area: nw;
     position: relative;
-    top: -234px;
+    top: -206px;
     right: 20px;
     border: 1px solid #99E2D0;
     background-color: #99E2D0;
@@ -209,14 +213,21 @@ color: #9356DC;
 
 .fa-solid.fa-heart {
     display:none ;
+    position: relative;
+    font-size: xx-large;
+    top: 15px;
+    right: -40px;
  }
  .heart:hover
- .fa-solid.fa-heart{ 
+ i.fa-solid.fa-heart{ 
 display: block;
-background-clip: text;
+ background-clip: text;
 -webkit-background-clip: text;
-color:  #9356DC;
-transition-duration: 1s;
+color:#9356DC;
+cursor: pointer;
+
+
+
 
  }
  .heart:hover
@@ -227,4 +238,46 @@ display: none;
  .number-three{
     background-color: #e6e2e2;
  }
- 
+ section.number-three>div:nth-child(4)>div>div>i.fa-regular.fa-heart,
+ section.number-three>div:nth-child(5)>div>div>i.fa-regular.fa-heart {
+     position: relative;
+     top: -41px;
+     right: -288px;
+     font-size: xx-large;
+ }
+ section.number-three>div:nth-child(4)>div>div>i.fa-solid.fa-heart,
+ section.number-three>div:nth-child(5)>div>div>i.fa-solid.fa-heart {
+     position: relative;
+     top: -41px;
+     right: -338px;
+     font-size: xx-large;
+ }
+
+ /*FOOTER */
+footer{
+    background-color: #1c1b1be6;
+}
+ul{
+    list-style:none;
+    color: white;
+}
+h3{
+    color: white;
+    margin-left: 43px;
+    margin-bottom: 0;
+    padding-top: 13px;
+}
+a.contact{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* ****************************************MENU A LA FRANCAISE**************************************** */
+
+.img-bg > img{
+    height: 250px;
+    background-size: contain;
+    background-attachment: fixed;
+    width: 100%;
+}
