@@ -1,0 +1,93 @@
+*{margin: 0px;
+ padding: 0px;
+}
+h3,h2,p{
+    font-family: 'roboto',sans-serif;
+    ;
+}
+h1{
+    font-family: 'Shrikhand', cursive ;
+    ;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ****************************************MENU A LA FRANCAISE**************************************** */
+.header-container-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.arrow-left{
+    font-size: x-large;
+}
+.img-bg > img{
+    height: 250px;
+    background-size: contain;
+    background-attachment: fixed;
+    width: 100%;
+}
+.menu-choose{
+    display: flex;
+    border: 1px solid;
+    justify-content: space-between;
+}
+/* span.price{
+    position: absolute;
+    right: 15px;
+    bottom: 611px;
+}
+span.price-check{
+    position: absolute;
+    right: 15px;
+    bottom: 611px;
+    display: none;
+} */
+
+div.menu-choose > p{
+    padding-bottom: 5px;
+}
+.card-menu{
+    display: flex;
+justify-content: space-around;
+}
+
+ .info-menu{
+    background-color: white;
+    border-radius: 30px 30px 0px 0px;
+    position: relative;
+    top: -52px;
+    padding-left: 10px;
+
+
+ }
+.heart-menu > .fa-regular.fa-heart {
+        
+        font-size: xx-large;
+}
+
+.input-order{
+    background: linear-gradient(#FF79DA, #9356DC);
+    border-radius: 30px;
+    border: none;
+    height: 42px;
+    width: 182px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+h2{
+    font-weight: normal;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-decoration: underline;
+}
