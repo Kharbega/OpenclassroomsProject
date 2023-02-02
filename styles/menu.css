@@ -40,14 +40,25 @@ h1{
     display: flex;
     margin-bottom: 10px;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     background-color: white;
-
+    border-radius: 15px;
+    box-shadow: 0px 1px 6px -1px #ddd9d9f7;
+    height: 77px;
 }
 span.price-check{
-    
     display: none;
+    background-color: #99E2D0;
+    width: 50ppx;
+    height: 77px;
+    width: 60px;
+    display: flex;
+    border-radius: 0 15px 15px 0;
+    justify-content: center;
+    align-items: center;
 }
+.group-text:hover,
+span.price-check
 
 div.menu-choose > p{
     padding-bottom: 5px;
@@ -93,9 +104,11 @@ h2{
 }
 .group-text{
     margin-bottom: 5px;
+    margin-left: 10px;
 }
 .group-price{
-    margin-bottom: 5px;
+    display: flex;
+    align-items: baseline;
 }
 .price{
     font-weight: bold;
@@ -103,4 +116,14 @@ h2{
 .group-menu{
     padding-left: 5px;
     padding-right: 5px;
+}
+i.fa-solid.fa-check{
+    background-color: white;
+    border-radius: 30px;
+    height: 22px;
+    width: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #99E2D0;
 }
