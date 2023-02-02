@@ -1,7 +1,7 @@
 *{margin: 0px;
  padding: 0px;
 }
-h3,h2,p{
+h3,h2,p,.price{
     font-family: 'roboto',sans-serif;
     ;
 }
@@ -64,6 +64,7 @@ padding-top: 20px;
     position: relative;
     top: -52px;
     padding-left: 10px;
+    width: 90%;
 
 
  }
@@ -89,4 +90,17 @@ h2{
     padding-top: 10px;
     text-decoration: underline;
     text-decoration-color: #99E2D0;
+}
+.group-text{
+    margin-bottom: 5px;
+}
+.group-price{
+    margin-bottom: 5px;
+}
+.price{
+    font-weight: bold;
+}
+.group-menu{
+    padding-left: 5px;
+    padding-right: 5px;
 }
