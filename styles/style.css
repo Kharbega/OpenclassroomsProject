@@ -258,6 +258,7 @@ display: none;
  /*FOOTER */
 footer{
     background-color: #1c1b1be6;
+    padding-left: 20px;
 }
 ul{
     list-style:none;
@@ -265,7 +266,6 @@ ul{
 }
 h3{
     color: white;
-    margin-left: 43px;
     margin-bottom: 0;
     padding-top: 13px;
 }
