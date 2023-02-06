@@ -146,7 +146,7 @@ color: #9356DC;
  
  /* SECTION 3 : RESTAURANTS */
 
- .card{
+ .card1,.card2,.card3,.card4{
     padding-bottom: 15px;
     width: 100%;
     display: grid;
@@ -187,8 +187,6 @@ color: #9356DC;
     grid-area: hrt;
     padding-left: 50px;
     position: relative;
-  /*  top: 15px;
-    right: -40px;*/
     font-size: xx-large; 
  }
  
@@ -201,7 +199,7 @@ color: #9356DC;
     grid-area: nw;
     position: relative;
     top: -293%;
-    right: -34%;
+    right: -31%;
     border: 1px solid #99E2D0;
     background-color: #99E2D0;
     height: 22px;
@@ -217,8 +215,6 @@ color: #9356DC;
 .fa-solid.fa-heart {
     display:none ;
     font-size: xx-large;
-    /* top: 15px;
-    right: -40px;  */
 }
  .heart:hover
  i.fa-solid.fa-heart{ 
@@ -242,27 +238,7 @@ display: none;
  .number-three{
     background-color: #f2f2f2;
  }
- /* section.number-three > div:nth-child(4) > div{
-    display: grid;
-    grid-area: cby;
-    grid-template-columns: 1fr 1fr 1fr 0.5fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "h2 h2 hrt"
-        "sbt sbt hrt"
-        "sbt sbt hrt";
-    background-color: white;
-    box-shadow: 0px 1px 8px 0px #646464;
-    border-radius: 0px 0px 30px 30px;
-    padding-left: 16px;
 
- }  */
-
-/* section.number-three>div:nth-child(4)>div>div>i.fa-regular.fa-heart,
-section.number-three>div:nth-child(4)>div>div>i.fa-solid.fa-heart {
-    grid-area: hrt;
-    font-size: xx-large;
-    position: initial;
-    padding-left: 0; */
  
  /*FOOTER */
 footer{
@@ -285,3 +261,28 @@ a.contact{
 }
 
 
+/*********************************MEDIA SCREEEEEEEEN TABLETTTE*******************/
+
+    
+@media (min-width: 768px) and (max-width:1200px){
+    ol{
+        flex-direction: row;
+    justify-content: space-between;
+    width: 98%;
+}
+    
+.card{
+    grid-area: ca;
+}
+h1{
+    grid-area: h1;
+}
+.number-three{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:10px 1fr 1fr ;
+    grid-template-areas: " h1 h1 "
+                        "ca1 ca2 "
+                        "ca3 ca4";
+}
+}
