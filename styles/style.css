@@ -38,7 +38,7 @@ section{
 #form {
     display: flex;
     background-color: #f2f2f2e9;
-    width: 94%;
+    width: 93%;
     align-items: center;
     justify-content: center;
     height: 45px;
@@ -156,12 +156,11 @@ color: #9356DC;
                          "cby" ;
  }
  .card-body {
-     display: grid;
-     grid-area: cby;
-     grid-template-columns: 1fr 1fr 1fr;
-     grid-template-rows: 1fr 20px;
-     grid-template-areas: "h2 h2 h2"
-         "sbt sbt hrt";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+
      background-color: white;
      box-shadow: 0px 1px 8px 0px #646464;
      border-radius: 0px 0px 30px 30px;
@@ -188,10 +187,11 @@ color: #9356DC;
     grid-area: hrt;
     padding-left: 50px;
     position: relative;
-    top: 15px;
-    right: -40px;
-    font-size: xx-large;
+  /*  top: 15px;
+    right: -40px;*/
+    font-size: xx-large; 
  }
+ 
  h2{
     grid-area: h2; 
     font-size: medium;
@@ -200,8 +200,8 @@ color: #9356DC;
  .new {
     grid-area: nw;
     position: relative;
-    top: -206px;
-    right: 20px;
+    top: -293%;
+    right: -34%;
     border: 1px solid #99E2D0;
     background-color: #99E2D0;
     height: 22px;
@@ -216,11 +216,10 @@ color: #9356DC;
 
 .fa-solid.fa-heart {
     display:none ;
-    position: relative;
     font-size: xx-large;
-    top: 15px;
-    right: -40px;
- }
+    /* top: 15px;
+    right: -40px;  */
+}
  .heart:hover
  i.fa-solid.fa-heart{ 
 background: linear-gradient(#FF79DA, #9356DC);
@@ -243,27 +242,28 @@ display: none;
  .number-three{
     background-color: #f2f2f2;
  }
- section.number-three > div:nth-child(4) > div{
+ /* section.number-three > div:nth-child(4) > div{
     display: grid;
     grid-area: cby;
-    grid-template-columns: 1fr 3fr 0.5fr;
-    grid-template-rows: 1fr 30px;
+    grid-template-columns: 1fr 1fr 1fr 0.5fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: "h2 h2 hrt"
+        "sbt sbt hrt"
         "sbt sbt hrt";
     background-color: white;
     box-shadow: 0px 1px 8px 0px #646464;
     border-radius: 0px 0px 30px 30px;
     padding-left: 16px;
 
- } 
+ }  */
 
-section.number-three > div:nth-child(4) > div > div > i.fa-regular.fa-heart ,
-section.number-three > div:nth-child(4) > div > div > i.fa-solid.fa-heart{
+/* section.number-three>div:nth-child(4)>div>div>i.fa-regular.fa-heart,
+section.number-three>div:nth-child(4)>div>div>i.fa-solid.fa-heart {
     grid-area: hrt;
     font-size: xx-large;
     position: initial;
-    padding-left: 0;
- }
+    padding-left: 0; */
+ 
  /*FOOTER */
 footer{
     background-color: #353535;
