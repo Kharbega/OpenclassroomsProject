@@ -146,7 +146,7 @@ color: #9356DC;
  
  /* SECTION 3 : RESTAURANTS */
 
- .card1,.card2,.card3,.card4{
+ .card{
     padding-bottom: 15px;
     width: 100%;
     display: grid;
@@ -280,9 +280,25 @@ h1{
 .number-three{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows:10px 1fr 1fr ;
+    grid-template-rows:70px 1fr 1fr ;
     grid-template-areas: " h1 h1 "
                         "ca1 ca2 "
                         "ca3 ca4";
+                        grid-column-gap: 15px;
+}
+ section.number-three > h1 {
+    grid-area: h1;
+ }
+section.number-three > div:nth-child(2){
+    grid-area: ca1;
+}
+section.number-three > div:nth-child(3){
+    grid-area: ca2;
+}
+section.number-three > div:nth-child(4){
+    grid-area: ca3;
+}
+section.number-three > div:nth-child(5){
+    grid-area: ca4;
 }
 }
