@@ -183,10 +183,7 @@ color: #9356DC;
     font-family: 'Roboto' sans-serif;
 
  }
- i.fa-regular.fa-heart{
-    grid-area: hrt;
-    font-size: xx-large; 
- }
+ 
  
  h2{
     grid-area: h2; 
@@ -213,7 +210,10 @@ color: #9356DC;
 .fa-solid.fa-heart {
     display:none ;
     font-size: xx-large;
+    
+
 }
+
  .heart:hover
  i.fa-solid.fa-heart{ 
 background: linear-gradient(#FF79DA, #9356DC);
@@ -223,8 +223,26 @@ display: block;
 color: transparent;
 cursor: pointer;
 
+ }
+ @keyframes -webkit-progress-bar {
+    0% {
+        transform: scaleX(0);
+    }
+    100% {
+        transform: scaleX(1);
+    }
+ }
 
 
+ .heart:active
+ i.fa-solid.fa-heart{
+    transform: scaleY(1);
+    animation-duration: 1000ms;
+ }
+
+i.fa-regular.fa-heart{
+    grid-area: hrt;
+    font-size: xx-large; 
 
 
  }
