@@ -185,8 +185,6 @@ color: #9356DC;
  }
  i.fa-regular.fa-heart{
     grid-area: hrt;
-    padding-left: 50px;
-    position: relative;
     font-size: xx-large; 
  }
  
