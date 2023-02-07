@@ -210,35 +210,44 @@ color: #9356DC;
 .fa-solid.fa-heart {
     display:none ;
     font-size: xx-large;
+    animation-name: progress-bar;
+
     
 
 }
 
- .heart:hover
+ .heart:active
  i.fa-solid.fa-heart{ 
 background: linear-gradient(#FF79DA, #9356DC);
 display: block;
  background-clip: text;
 -webkit-background-clip: text;
 color: transparent;
-cursor: pointer;
-
+cursor: pointer; 
+animation-name: progress;
+transform-origin: 0% 50%;
+    transform: scaleY(0);
+    transition: 1000ms;
+    animation: forwards; 
  }
- @keyframes -webkit-progress-bar {
+ 
+ @keyframes progress {
     0% {
-        transform: scaleX(0);
+        transform: scaleY(0);
     }
     100% {
-        transform: scaleX(1);
+        transform: scaleY(1);
     }
  }
 
 
- .heart:active
+ /* .heart:active
  i.fa-solid.fa-heart{
-    transform: scaleY(1);
-    animation-duration: 1000ms;
- }
+    transform-origin: 0% 50%;
+    transform: scaleY(0);
+    transition: 1000ms;
+    animation: forwards; 
+ }*/
 
 i.fa-regular.fa-heart{
     grid-area: hrt;
