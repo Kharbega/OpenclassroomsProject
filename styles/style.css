@@ -264,7 +264,7 @@ a.contact{
 /*********************************MEDIA SCREEEEEEEEN TABLETTTE*******************/
 
     
-@media (min-width: 768px) and (max-width:1200px){
+@media (min-width: 768px) {
     ol{
         flex-direction: row;
     justify-content: space-between;
@@ -301,4 +301,30 @@ section.number-three > div:nth-child(4){
 section.number-three > div:nth-child(5){
     grid-area: ca4;
 }
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+}
+
+/*****************************MEDIA SCREEN ORDI**********************************/
+@media (min-width: 1350px){
+    #form{
+        height: 90px;
+        font-size: x-large;
+    }
+    section.number-one{
+        font-size: x-large;
+    }
+    footer{
+        padding-bottom: 10px;
+        display: block;
+    }
+    ul{
+        display: flex;
+        justify-content: space-around;
+        font-size: larger;
+    }
 }
