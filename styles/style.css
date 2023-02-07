@@ -38,7 +38,7 @@ section{
 #form {
     display: flex;
     background-color: #f2f2f2e9;
-    width: 93%;
+    width: 90%;
     align-items: center;
     justify-content: center;
     height: 45px;
@@ -197,7 +197,7 @@ color: #9356DC;
     grid-area: nw;
     position: relative;
     top: -293%;
-    right: -31%;
+    right: -26%;
     border: 1px solid #99E2D0;
     background-color: #99E2D0;
     height: 22px;
