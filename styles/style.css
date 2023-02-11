@@ -15,7 +15,10 @@ section{
 
 
 
-
+.spinner{
+    
+    background-image: url("abimation/Spinner-1s-200px.gif");
+}
 
 
 
@@ -154,6 +157,7 @@ color: #9356DC;
     grid-template-rows: 1fr ;
     grid-template-areas: "img"
                          "cby" ;
+    cursor: pointer;
  }
  .card-body {
     display: flex;
@@ -210,13 +214,13 @@ color: #9356DC;
 .fa-solid.fa-heart {
     display:none ;
     font-size: xx-large;
-    animation-name: progress-bar;
+    animation-name: progress;
 
     
 
 }
 
- .heart:active
+ .heart:hover
  i.fa-solid.fa-heart{ 
 background: linear-gradient(#FF79DA, #9356DC);
 display: block;
@@ -225,29 +229,30 @@ display: block;
 color: transparent;
 cursor: pointer; 
 animation-name: progress;
-transform-origin: 0% 50%;
-    transform: scaleY(0);
-    transition: 1000ms;
-    animation: forwards; 
+
  }
  
- @keyframes progress {
+  @keyframes progress {
     0% {
-        transform: scaleY(0);
+        background-color: transparent;
+    }
+    50%{
+        background-color: #FF79DA;
     }
     100% {
-        transform: scaleY(1);
+        background-color: linear-gradient(#FF79DA, #9356DC);
     }
- }
+   
+ } 
 
 
- /* .heart:active
+ .heart:active
  i.fa-solid.fa-heart{
-    transform-origin: 0% 50%;
-    transform: scaleY(0);
-    transition: 1000ms;
-    animation: forwards; 
- }*/
+    /* transform-origin:bottom;
+    transition:linear 1000ms; */
+    animation-name: progress;
+ }
+ 
 
 i.fa-regular.fa-heart{
     grid-area: hrt;
@@ -293,7 +298,7 @@ a.contact{
     ol{
         flex-direction: row;
     justify-content: space-between;
-    width: 98%;
+    width: 95%;
 }
     
 .card{

@@ -27,8 +27,10 @@ body{
 .header-container-menu{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    padding-left: 20px;
+    width: 70%;
 }
 .arrow-left{
     font-size: x-large;
@@ -38,6 +40,7 @@ body{
     background-size: contain;
     background-attachment: fixed;
     width: 100%;
+    object-fit: cover;
 }
 .menu-choose{
     display: flex;
@@ -181,4 +184,25 @@ h4{
 a.contact{
     color: white;
     text-decoration: none;
+}
+
+
+
+
+
+
+
+@media (min-width: 810px) {
+    .container-menu{
+        display: flex;
+    }
+    .group-menu{
+        width: 50%;
+    }
+    .img-bg > img {
+        height: 400px;
+}
+.header-container-menu{
+width: 58%;
+}
 }
