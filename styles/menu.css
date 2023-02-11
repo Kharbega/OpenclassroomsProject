@@ -53,25 +53,48 @@ body{
     height: 77px;
     cursor: pointer;
 }
+@keyframes menu{
+    0% {
+        transform: scale(0);
+
+    }
+    50%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+    
+}
 span.price-check{
     background-color: #99E2D0;
-    width: 50px;
     height: 77px;
     width: 60px;
     display: none;
     border-radius: 0 15px 15px 0;
     justify-content: center;
     align-items: center;
+  
+}
+@keyframes price {
+    to {
+        transform:rotate(360deg);
+    }
+    
 }
 .menu-choose:hover
 i.fa-solid.fa-check{
     
     display:flex;
-    transform: rotate(0deg);
+    animation-name: price;
+    animation-duration: 5s;
+    animation-fill-mode: none;
+    
 }
 .menu-choose:hover
 span.price-check{
     display: flex;
+    
    
    
 }
@@ -144,6 +167,9 @@ h2{
 .group-menu{
     padding-left: 5px;
     padding-right: 5px;
+    animation-name: menu;
+    animation-duration: 250ms;
+    animation-timing-function: ease-in-out;
 }
 i.fa-solid.fa-check{
     background-color: white;
