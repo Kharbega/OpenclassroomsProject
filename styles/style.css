@@ -301,16 +301,16 @@ a.contact{
     opacity: 38%;
     width: 100%;
 }
-.fa-circle-notch:before {
+i.fa-circle-notch {
     content: "\f1ce";
     font-size: xxx-large;
   animation-name: spinner;
-  transition:transform 2s;
+  animation-duration: 10s;
 
 }
 @keyframes spinner{
-    0%{
-        transform: rotate(360);
+    to {
+        transform: rotate(360deg);
     }
 }
 /*********************************MEDIA SCREEEEEEEEN TABLETTTE*******************/
