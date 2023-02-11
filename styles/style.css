@@ -290,6 +290,13 @@ a.contact{
     text-decoration: none;
 }
 
+.loading-spinner{
+background-color: #9356DC;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
 
 /*********************************MEDIA SCREEEEEEEEN TABLETTTE*******************/
 
