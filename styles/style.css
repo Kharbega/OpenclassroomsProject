@@ -300,12 +300,23 @@ a.contact{
     position: fixed;
     opacity: 38%;
     width: 100%;
+    animation: loading 5s ease-in-out 5s 3 normal forwards;
+    animation-fill-mode: forwards;
 }
+   @keyframes loading {
+        to {
+            transform: scale(0);
+        }
+        
+    }
+   
+
 i.fa-circle-notch {
     content: "\f1ce";
     font-size: xxx-large;
   animation-name: spinner;
   animation-duration: 10s;
+  animation-fill-mode: forwards;
 
 }
 @keyframes spinner{
