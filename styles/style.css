@@ -291,13 +291,28 @@ a.contact{
 }
 
 .loading-spinner{
-background-color: #9356DC;
-height: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
+    background-color: #9c27b066;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    position: fixed;
+    opacity: 38%;
+    width: 100%;
 }
+.fa-circle-notch:before {
+    content: "\f1ce";
+    font-size: xxx-large;
+  animation-name: spinner;
+  transition:transform 2s;
 
+}
+@keyframes spinner{
+    0%{
+        transform: rotate(360);
+    }
+}
 /*********************************MEDIA SCREEEEEEEEN TABLETTTE*******************/
 
     
