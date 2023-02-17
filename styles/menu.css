@@ -218,8 +218,18 @@ button{
 ul{
     list-style:none;
     color: white;
+    padding: 0;
 }
-h4{
+ i.fa-solid.fa-handshake-angle{
+    padding-right: 2%;
+}
+i.fa-solid.fa-utensils{
+    padding-right: 4%;
+}
+footer > nav > ul > li{
+    padding-bottom: 1%;
+}
+h3{
     color: white;
     margin-bottom: 0;
     padding-top: 13px;
