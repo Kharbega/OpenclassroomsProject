@@ -52,17 +52,21 @@ body{
     box-shadow: 0px 1px 6px -1px #ddd9d9f7;
     height: 77px;
     cursor: pointer;
+    animation-name: menu;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
 }
 @keyframes menu{
+ 
     0% {
-        transform: scale(0);
-
+        transform: ScaleY(0);
     }
     50%{
-        transform: scale(0.5);
+        transform: ScaleY(50%)
+
     }
-    100%{
-        transform: scale(1);
+    100% {
+        transform: ScaleY(100%);
     }
     
 }
@@ -126,13 +130,21 @@ padding-top: 20px;
         font-size: xx-large;
 }
 .heart-menu:hover
-i.fa-regular.fa-regular.fa-heart{ 
+i.fa-solid.fa.heart{ 
 background: linear-gradient(#FF79DA, #9356DC);
 display: block;
 background-clip: text;
 -webkit-background-clip: text;
 color: transparent;
 cursor: pointer;
+}
+.fa-solid.fa-heart {
+    display:none ;
+    font-size: xx-large;
+}
+.heart-menu:hover
+.fa-regular.fa-heart{ 
+display: none;
 }
 .input-order{
     background: linear-gradient(#FF79DA, #9356DC);
@@ -143,8 +155,14 @@ cursor: pointer;
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
+    cursor: pointer;
 }
+.input-order:hover{
+
+background: linear-gradient(#d894c5, #ba93e9);
+}
+
 h2{
     font-weight: normal;
     padding-bottom: 10px;
@@ -167,9 +185,8 @@ h2{
 .group-menu{
     padding-left: 5px;
     padding-right: 5px;
-    animation-name: menu;
-    animation-duration: 250ms;
-    animation-timing-function: ease-in-out;
+    
+
 }
 i.fa-solid.fa-check{
     background-color: white;

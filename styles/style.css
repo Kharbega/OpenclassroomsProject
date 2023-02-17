@@ -85,8 +85,12 @@ section.number-one{
     height: 42px;
     width: 182px;
     color: white;
+    cursor: pointer;
 }
-
+#input-explore:hover{
+    background: linear-gradient(#d894c5, #ba93e9);
+    ;
+}
 
 /*  SECTION FONCTIONNEMENT*/
 
@@ -158,6 +162,7 @@ color: #9356DC;
     grid-template-areas: "img"
                          "cby" ;
     cursor: pointer;
+    text-decoration: none;
  }
  .card-body {
     display: flex;
@@ -333,7 +338,7 @@ font-size: xxx-large;
     width: 95%;
 }
     
-.card{
+a.card{
     grid-area: ca;
 }
 h1{
@@ -351,16 +356,16 @@ h1{
  section.number-three > h1 {
     grid-area: h1;
  }
-section.number-three > div:nth-child(2){
-    grid-area: ca1;
+section.number-three > a:nth-child(2) {
+     grid-area: ca1;
 }
-section.number-three > div:nth-child(3){
+section.number-three > a:nth-child(3){
     grid-area: ca2;
 }
-section.number-three > div:nth-child(4){
+section.number-three > a:nth-child(4){
     grid-area: ca3;
 }
-section.number-three > div:nth-child(5){
+section.number-three > a:nth-child(5){
     grid-area: ca4;
 }
 footer{
