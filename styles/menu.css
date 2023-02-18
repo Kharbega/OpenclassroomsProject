@@ -2,7 +2,7 @@
  padding: 0px;
 }
 h3,h2,p,.price,ul{
-    font-family: 'roboto',sans-serif;
+    font-family: 'Roboto',sans-serif;
     ;
 }
 h1,h4{
@@ -14,7 +14,12 @@ body{
     background-color: #f2f2f2;
 }
 
-
+h3{
+    font-family: 'Shrikhand', cursive ;
+}
+section,header,p,nav,li{
+    font-family: 'Roboto',sans-serif;
+}
 
 
 
@@ -59,14 +64,14 @@ body{
 @keyframes menu{
  
     0% {
-        transform: ScaleY(0);
+        transform: TranslateY(0);
     }
     50%{
-        transform: ScaleY(50%)
+        transform: TranslateY(50%)
 
     }
     100% {
-        transform: ScaleY(100%);
+        transform: TranslateY(100%);
     }
     
 }
@@ -161,14 +166,20 @@ display: none;
 .input-order:hover{
 
 background: linear-gradient(#d894c5, #ba93e9);
+box-shadow:  10px 5px 5px  #9356DC ;
 }
+
 
 h2{
     font-weight: normal;
     padding-bottom: 10px;
     padding-top: 10px;
-    text-decoration: underline;
-    text-decoration-color: #99E2D0;
+   
+}
+.border-titre{
+    border-bottom: 4px solid #99E2D0 ;
+    height: 0%;
+    width: 14%;
 }
 .group-text{
     margin-bottom: 5px;
@@ -255,7 +266,20 @@ a.contact{
     .img-bg > img {
         height: 400px;
 }
+
 .header-container-menu{
 width: 58%;
 }
+}
+footer{
+    padding-bottom: 10px;
+    display: block;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    font-size: larger;
+}
+ol{
+    justify-content: space-evenly;
 }

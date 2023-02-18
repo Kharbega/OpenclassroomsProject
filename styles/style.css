@@ -4,7 +4,7 @@
 h3{
     font-family: 'Shrikhand', cursive ;
 }
-section,header,p{
+section,header,p,li{
     font-family: 'Roboto',sans-serif;
 }
 section{
@@ -89,7 +89,8 @@ section.number-one{
 }
 #input-explore:hover{
     background: linear-gradient(#d894c5, #ba93e9);
-    ;
+    box-shadow:  10px 5px 5px  #9356DC ;
+
 }
 
 /*  SECTION FONCTIONNEMENT*/
@@ -378,10 +379,16 @@ section.number-three > a:nth-child(5){
     grid-area: ca4;
 }
 footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
     padding-bottom: 10px;
+    display: block;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    font-size: larger;
+}
+ol{
+    justify-content: space-evenly;
 }
 }
 
