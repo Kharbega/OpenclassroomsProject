@@ -112,11 +112,11 @@ span.price-check{
 
 .menu-choose:hover
 span.price{
-    margin-right: 20px;
+    margin-right: 20px; 
 
-}
-.span.price{
-    transition: margin-right 0.5s;
+} 
+span.price{
+    transition: margin-right 1s;
 
 }
 div.menu-choose > p{
@@ -198,7 +198,6 @@ h2{
 }
 .price{
     font-weight: bold;
-    margin-right: 5px;
 }
 .group-menu{
     padding-left: 5px;
