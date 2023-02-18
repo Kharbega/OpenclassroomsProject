@@ -60,21 +60,21 @@ section,header,p,nav,li{
     animation-name: menu;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
+    
 }
 @keyframes menu{
  
+  
     0% {
-        transform: TranslateY(0);
-    }
-    50%{
-        transform: TranslateY(50%)
-
+        transform: TranslateY(-50%)
     }
     100% {
-        transform: TranslateY(100%);
+        transform: TranslateY(1)
     }
+
     
 }
+
 span.price-check{
     background-color: #99E2D0;
     height: 77px;
