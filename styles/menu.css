@@ -66,7 +66,7 @@ section,header,p,nav,li{
  
   
     0% {
-        transform: TranslateY(-50%)
+        transform: TranslateY(-40%)
     }
     100% {
         transform: TranslateY(1)
@@ -75,16 +75,7 @@ section,header,p,nav,li{
     
 }
 
-span.price-check{
-    background-color: #99E2D0;
-    height: 77px;
-    width: 60px;
-    display: none;
-    border-radius: 0 15px 15px 0;
-    justify-content: center;
-    align-items: center;
-  
-}
+
 @keyframes price {
     to {
         transform:rotate(360deg);
@@ -98,20 +89,36 @@ i.fa-solid.fa-check{
     animation-name: price;
     animation-duration: 5s;
     animation-fill-mode: none;
+    animation-delay: 1s;
     
+}
+span.price-check{
+    background-color: #99E2D0;
+    height: 77px;
+    width: 60px;
+    display: none;
+    border-radius: 0 15px 15px 0;
+    justify-content: center;
+    align-items: center;
+    
+  
 }
 .menu-choose:hover
 span.price-check{
     display: flex;
     
-   
-   
+         
 }
+
 .menu-choose:hover
 span.price{
     margin-right: 20px;
-}
 
+}
+.span.price{
+    transition: margin-right 0.5s;
+
+}
 div.menu-choose > p{
     padding-bottom: 5px;
 }
