@@ -87,9 +87,8 @@ i.fa-solid.fa-check{
     
     display:flex;
     animation-name: price;
-    animation-duration: 5s;
+    animation-duration: 0.5s;
     animation-fill-mode: none;
-    animation-delay: 1s;
     
 }
 span.price-check{
