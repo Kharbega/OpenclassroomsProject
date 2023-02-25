@@ -14,19 +14,6 @@ section{
 
 
 
-
-.spinner{
-    
-    background-image: url("abimation/Spinner-1s-200px.gif");
-}
-
-
-
-
-
-
-
-
 .header-container {
     display: flex;
     flex-direction: column;
@@ -220,9 +207,7 @@ color: #9356DC;
 .fa-solid.fa-heart {
     display:none ;
     font-size: xx-large;
-    animation-name: progress;
-
-    
+ 
 
 }
 
@@ -234,31 +219,12 @@ display: block;
 -webkit-background-clip: text;
 color: transparent;
 cursor: pointer; 
-animation-name: progress;
+/* opacity: 0; */
+transition: opacity 1s;
 
  }
- 
-  /* @keyframes progress {
-    0% {
-        background-color: transparent;
-    }
-    50%{
-        background-color: #FF79DA;
-    }
-    100% {
-        background-color: linear-gradient(#FF79DA, #9356DC);
-    }
-   
- }  */
 
 
- .heart:active
- i.fa-solid.fa-heart{
-    /* transform-origin:bottom;
-    transition:linear 1000ms; */
-    animation-name: progress;
- }
- 
 
 i.fa-regular.fa-heart{
     grid-area: hrt;
@@ -315,7 +281,7 @@ a.contact{
     position: fixed;
     opacity: 38%;
     width: 100%;
-    animation: loading 5s ease-in-out 5s 1 normal forwards;
+    animation: loading 1s ease-in-out 1s 1 normal forwards;
     animation-fill-mode: forwards;
 }
    @keyframes loading {

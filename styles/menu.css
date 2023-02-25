@@ -152,7 +152,11 @@ cursor: pointer;
 .fa-solid.fa-heart {
     display:none ;
     font-size: xx-large;
+
 }
+
+    
+
 .heart-menu:hover
 .fa-regular.fa-heart{ 
 display: none;
@@ -186,6 +190,7 @@ h2{
     border-bottom: 4px solid #99E2D0 ;
     height: 0%;
     width: 14%;
+    margin-bottom: 10px;
 }
 .group-text{
     margin-bottom: 5px;
@@ -245,7 +250,7 @@ i.fa-solid.fa-utensils{
 footer > nav > ul > li{
     padding-bottom: 1%;
 }
-h3{
+h4{
     color: white;
     margin-bottom: 0;
     padding-top: 13px;
@@ -275,7 +280,7 @@ a.contact{
 .header-container-menu{
 width: 58%;
 }
-}
+
 footer{
     padding-bottom: 10px;
     display: block;
@@ -287,4 +292,5 @@ ul{
 }
 ol{
     justify-content: space-evenly;
+}
 }
