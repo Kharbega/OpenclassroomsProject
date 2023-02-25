@@ -29,7 +29,6 @@ section,header,p,nav,li{
 
 
 
-/* ****************************************MENU A LA FRANCAISE**************************************** */
 .header-container-menu{
     display: flex;
     flex-direction: row;
@@ -95,36 +94,13 @@ span.price-check{
     background-color: #99E2D0;
     height: 77px;
     width: 0px;
-    /* display: none; */
     border-radius: 0 15px 15px 0;
     justify-content: center;
     align-items: center;
-    animation-name: spancheck;
 }
-@keyframes spancheck {
-    /* 0% {
-        transform: scale(0);
-    }
-    20%{
-        transform: scale(0.2);
-    }
-    40%{
-        transform: scale(0.4);
-    }
-   60%{
-        transform: scale(0.6);
-    }
-    80%{
-        transform: scale(0.8);
-    }
-          
-   
-    100% {
-        transform: scale(1);
-    } */
-  
+
     
-}
+
 .menu-choose:hover
 span.price-check{
     display: flex;
@@ -144,6 +120,18 @@ span.price{
     transition: margin-right 1s;
 
 }
+.menu-choose:hover
+h3{
+    
+         white-space: nowrap;
+         overflow: hidden;
+}
+.menu-choose:hover
+h3>.overflow-ellipsis {
+        text-overflow: ellipsis;
+}
+    
+
 div.menu-choose > p{
     padding-bottom: 5px;
 }
@@ -224,7 +212,7 @@ h2{
 }
 .group-price{
     display: flex;
-    align-items: baseline;
+    align-items: center;
 }
 .price{
     font-weight: bold;
