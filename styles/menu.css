@@ -1,7 +1,8 @@
-*{margin: 0px;
+*{
+ margin: 0px;
  padding: 0px;
 }
-h3,h2,p,.price,ul{
+h3,h2,p,.price,ul,h3{
     font-family: 'Roboto',sans-serif;
     ;
 }
@@ -14,9 +15,9 @@ body{
     background-color: #f2f2f2;
 }
 
-h3{
+/* h3{
     font-family: 'Shrikhand', cursive ;
-}
+} */
 section,header,p,nav,li{
     font-family: 'Roboto',sans-serif;
 }
@@ -60,7 +61,6 @@ section,header,p,nav,li{
     animation-name: menu;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
-    
 }
 @keyframes menu{
  
@@ -94,18 +94,44 @@ i.fa-solid.fa-check{
 span.price-check{
     background-color: #99E2D0;
     height: 77px;
-    width: 60px;
-    display: none;
+    width: 0px;
+    /* display: none; */
     border-radius: 0 15px 15px 0;
     justify-content: center;
     align-items: center;
-    
+    animation-name: spancheck;
+}
+@keyframes spancheck {
+    /* 0% {
+        transform: scale(0);
+    }
+    20%{
+        transform: scale(0.2);
+    }
+    40%{
+        transform: scale(0.4);
+    }
+   60%{
+        transform: scale(0.6);
+    }
+    80%{
+        transform: scale(0.8);
+    }
+          
+   
+    100% {
+        transform: scale(1);
+    } */
   
+    
 }
 .menu-choose:hover
 span.price-check{
     display: flex;
+    width: 60px;
+     transition: width 1s; 
     
+   
          
 }
 
@@ -202,6 +228,7 @@ h2{
 }
 .price{
     font-weight: bold;
+    margin-right: 15px;
 }
 .group-menu{
     padding-left: 5px;
@@ -262,7 +289,7 @@ a.contact{
 
 
 
-
+/* *********************************MEDIA SCREEEN************************************************** */
 
 
 
