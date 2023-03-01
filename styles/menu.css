@@ -119,14 +119,19 @@ span.price{
 
 }
 
-/* .menu-choose:hover
-h3{
+
+.group-text{
          white-space: nowrap;
          overflow: hidden;
-         
-} */
-
-    
+         display: inline;
+         text-overflow: ellipsis;
+}
+ h3,p{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+     
 
 div.menu-choose > p{
     padding-bottom: 5px;
