@@ -31,17 +31,15 @@ section,header,p,nav,li{
 
 .header-container-menu{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    padding-left: 20px;
-    width: 70%;
 }
+
 .arrow-left{
     font-size: x-large;
 }
 .img-bg > img{
-    height: 250px;
+    height: 240px;
     background-size: contain;
     background-attachment: fixed;
     width: 100%;
@@ -120,16 +118,14 @@ span.price{
     transition: margin-right 1s;
 
 }
-.menu-choose:hover
+
+/* .menu-choose:hover
 h3{
-    
          white-space: nowrap;
          overflow: hidden;
-}
-.menu-choose:hover
-h3>.overflow-ellipsis {
-        text-overflow: ellipsis;
-}
+         
+} */
+
     
 
 div.menu-choose > p{
@@ -142,13 +138,14 @@ padding-top: 20px;
 }
 
  .info-menu{
+    padding-left: 5;
     background-color: #f2f2f2;
     border-radius: 30px 30px 0px 0px;
     position: relative;
     top: -52px;
     width: 100%;
-
-
+    /* padding-left: 5px; */
+    /* padding-right: 5px; */
  }
 .heart-menu > .fa-regular.fa-heart {
         
@@ -238,6 +235,7 @@ i.fa-solid.fa-check{
 .group-btn{
     display: flex;
     justify-content: center;
+    /* width: 50%; */
 }
 button{
     background-color: transparent;
