@@ -212,17 +212,7 @@ color: #9356DC;
 }
 
  .heart:hover
- i.fa-solid.fa-heart{ 
-background: linear-gradient(#FF79DA, #9356DC);
-display: block;
- background-clip: text;
--webkit-background-clip: text;
-color: transparent;
-cursor: pointer; 
-/* opacity: 0; */
-transition: opacity 1s;
-
- }
+ i.fa-solid.fa-heart{background: linear-gradient(#FF79DA, #9356DC);display: block;background-clip: text;-webkit-background-clip: text;color: transparent;cursor: pointer;/* opacity: 0; */transition: opacity 1s;}
 
 
 
@@ -302,6 +292,13 @@ font-size: xxx-large;
 @keyframes spinner{
     to {
         transform: rotate(360deg);
+    }
+}
+/*******************MEDIA SCREEN EVITER UN DEPASSEMENT*********************************************************/
+
+@media (max-width: 450px) {
+    .new{
+        right: -12%;
     }
 }
 /*********************************MEDIA SCREEEEEEEEN TABLETTTE*******************/

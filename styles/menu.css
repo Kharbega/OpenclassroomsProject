@@ -38,6 +38,9 @@ section,header,p,nav,li{
 .arrow-left{
     font-size: x-large;
 }
+img#logo{
+    width: 45%;
+}
 .img-bg > img{
     height: 240px;
     background-size: contain;
@@ -58,6 +61,7 @@ section,header,p,nav,li{
     animation-name: menu;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
+    /* white-space: nowrap; */
 }
 @keyframes menu{
  
@@ -131,7 +135,21 @@ span.price{
     white-space: nowrap;
     overflow: hidden;
 }
-     
+.menu-choose:hover
+.group-text{
+    
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+}
+.menu-choose:hover
+h3,p{
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   overflow: hidden;
+}
+    
+
 
 div.menu-choose > p{
     padding-bottom: 5px;
@@ -223,6 +241,9 @@ h2{
 .group-menu{
     padding-left: 5px;
     padding-right: 5px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
     
 
 }
@@ -288,9 +309,9 @@ a.contact{
     .container-menu{
         display: flex;
     }
-    .group-menu{
+     .group-menu{
         width: 50%;
-    }
+     }
     .img-bg > img {
         height: 400px;
 }
@@ -311,4 +332,5 @@ ul{
 ol{
     justify-content: space-evenly;
 }
+
 }
