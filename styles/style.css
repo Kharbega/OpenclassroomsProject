@@ -28,12 +28,12 @@ section{
 #form {
     display: flex;
     background-color: #f2f2f2e9;
-    width: 90%;
+    width: 100%;
     align-items: center;
     justify-content: center;
     height: 45px;
     border-top: 2px solid #dddadab4;
-    padding-left: 50px;
+    /* padding-left: 50px; */
 }
 
 input.search {
