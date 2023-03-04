@@ -37,6 +37,7 @@ section,header,p,nav,li{
 
 .arrow-left{
     font-size: x-large;
+    color: black;
 }
 img#logo{
     width: 45%;
@@ -144,7 +145,6 @@ padding-top: 20px;
 }
 
  .info-menu{
-    padding-left: 5;
     background-color: #f2f2f2;
     border-radius: 30px 30px 0px 0px;
     position: relative;
@@ -153,27 +153,26 @@ padding-top: 20px;
  }
 
  /**************** ANIMATION HEART**********************/
-.heart-menu > .fa-regular.fa-heart {
-        
-        font-size: xx-large;
+
+i.fa-regular.fa-heart{
+    font-size: xx-large;
+    color: black;
 }
 .heart-menu:hover
-i.fa-solid.fa.heart{ 
+i.fa-solid.fa-heart{ 
 background: linear-gradient(#FF79DA, #9356DC);
 display: block;
 background-clip: text;
 -webkit-background-clip: text;
 color: transparent;
 cursor: pointer;
-animation-name: heart;
-animation-duration: 5s;
+opacity: 1;
+transition: opacity 2s;
 }
 .fa-solid.fa-heart {
     display:none ;
     font-size: xx-large;
-    animation-name: heart;
-    animation-duration: 5s;
-
+opacity: 0;
 }
 
     
@@ -183,28 +182,9 @@ animation-duration: 5s;
 display: none;
 }
 
-@keyframes heart {
-    0%{
-        transform: scale(0);
-        
-    }
-    20%{
-        transform: scale(0.2);
-    }
-    40%{
-        transform: scale(0.4);
-    }
-    60%{
-        transform: scale(0.6);
-    }
-    80%{
-        transform: scale(0.8);
-    }
-    100%{
-        transform: scale(1.1);
-    }
+
     
-}
+
 /***********FIN ANIMATION HEART********/
 .input-order{
     background: linear-gradient(#FF79DA, #9356DC);
@@ -286,10 +266,10 @@ button{
  
   
     0% {
-        transform: TranslateY(-40%)
+        transform: TranslateY(-40%);
     }
     100% {
-        transform: TranslateY(1)
+        transform: translateY(10px);
     }
 
     

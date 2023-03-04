@@ -10,6 +10,13 @@ section,header,p,li{
 section{
     padding-left: 30px;
 }
+body{
+    margin: 0;
+    padding: 0;
+}
+h2,p{
+    color: black;
+}
 
 
 
@@ -33,7 +40,8 @@ section{
     justify-content: center;
     height: 45px;
     border-top: 2px solid #dddadab4;
-    /* padding-left: 50px; */
+    padding-left: 50px;
+    margin-right: 50px;
 }
 
 input.search {
@@ -47,6 +55,7 @@ section.number-one{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* margin: 8px; */
 }
 .title{
     display: flex;
@@ -152,6 +161,11 @@ color: #9356DC;
     cursor: pointer;
     text-decoration: none;
  }
+ .card:hover
+ .card-body{
+    box-shadow:0px 1px 8px 0px #161616 ;
+   
+ }
  .card-body {
     display: flex;
     justify-content: space-between;
@@ -174,16 +188,18 @@ color: #9356DC;
     object-position: center;
     height: 160px;
     border-radius: 15px 15px 0px 0px;
+    width: 100%;
  }
  p{
     grid-area: sbt;
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto' ,sans-serif;
 
  }
  
  
  h2{
-    grid-area: h2; 
+    color: black;
+    grid-area: h2;
     font-size: medium;
     margin-bottom: 0;
  }
@@ -191,7 +207,7 @@ color: #9356DC;
     grid-area: nw;
     position: relative;
     top: -293%;
-    right: -26%;
+    right: -25%;
     border: 1px solid #99E2D0;
     background-color: #99E2D0;
     height: 22px;
@@ -207,20 +223,28 @@ color: #9356DC;
 .fa-solid.fa-heart {
     display:none ;
     font-size: xx-large;
+    opacity: 0;
  
 
 }
 
  .heart:hover
- i.fa-solid.fa-heart{background: linear-gradient(#FF79DA, #9356DC);display: block;background-clip: text;-webkit-background-clip: text;color: transparent;cursor: pointer;/* opacity: 0; *//* transition: opacity 1s; */}
-
+ i.fa-solid.fa-heart {
+     background: linear-gradient(#FF79DA, #9356DC);
+     display: block;
+     background-clip: text;
+     -webkit-background-clip: text;
+     color: transparent;
+     cursor: pointer;
+     opacity: 1;
+     transition: opacity 2s;
+ }
 
 
 i.fa-regular.fa-heart{
     grid-area: hrt;
-    font-size: xx-large; 
-
-
+    font-size: xx-large;
+    color: black;
  }
  .heart:hover
  .fa-regular.fa-heart{ 
@@ -355,6 +379,14 @@ ol{
 }
 }
 
+@media  (min-width:750px) and (max-width:850px){
+
+
+.new{ 
+    right: -20% ;
+}
+    
+}
 /*****************************MEDIA SCREEN ORDI**********************************/
 @media (min-width: 1350px){
     #form{
