@@ -15,9 +15,7 @@ body{
     background-color: #f2f2f2;
 }
 
-/* h3{
-    font-family: 'Shrikhand', cursive ;
-} */
+
 section,header,p,nav,li{
     font-family: 'Roboto',sans-serif;
 }
@@ -41,7 +39,12 @@ section,header,p,nav,li{
 }
 img#logo{
     width: 45%;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-right: 38px;
 }
+
+
 .img-bg > img{
     height: 240px;
     background-size: contain;
@@ -235,8 +238,6 @@ h2{
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
-    
-
 }
 i.fa-solid.fa-check{
     background-color: white;
@@ -252,8 +253,10 @@ i.fa-solid.fa-check{
 .group-btn{
     display: flex;
     justify-content: center;
+    padding-top: 25px;
 }
 button{
+    font-family: 'Roboto';
     background-color: transparent;
     border: none;
     color: white;
@@ -292,6 +295,8 @@ ul{
     list-style:none;
     color: white;
     padding: 0;
+    padding: 0;
+    padding-bottom: 20px;
 }
  i.fa-solid.fa-handshake-angle{
     padding-right: 2%;
@@ -304,8 +309,9 @@ footer > nav > ul > li{
 }
 h4{
     color: white;
-    margin-bottom: 0;
+    margin-bottom: 10px;
     padding-top: 13px;
+    font-size: larger;
 }
 a.contact{
     color: white;
